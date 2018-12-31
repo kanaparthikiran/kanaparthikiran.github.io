@@ -10,13 +10,6 @@ I wanted a dev landing page to showcase everything I do online and I wanted it t
 
 So I sat down one night and created this **Dev Landing Page**. Feel free to fork, clone, play around and make this your own.
 
-## Themes
-
-Dev Landing Page comes in 9 **material themes**.
-
-![9 Material Themes](https://image.ibb.co/jJVKCn/dev_landing_page_themes.jpg)
-
-If none of these themes fit within your taste, it's quite easy to customize and create your own too. 
 
 ## GitHub Pages
 
@@ -31,7 +24,7 @@ If you already have a GitHub profile (obviously)
 
 Voila! Your site should be live at `https://{username}.github.io`
 
-Here's mine, but I revamped my **Dev Landing Page** with React and some magic - [Dinesh Pandiyan](https://flexdinesh.github.io)
+Here's mine, but I revamped my **Dev Landing Page** with React and some magic - [Kiran Kanaparthi](https://kanaparthikiran.github.io)
 
 ### Custom Domain
 
@@ -39,4 +32,4 @@ If you want to make your new landing page available under a domain like `{userna
 
 ## License
 
-MIT © Dinesh Pandiyan
+MIT © Kiran Kanaparthi
