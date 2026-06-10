@@ -1,0 +1,50 @@
+# Site settings
+title: Kiran Kanaparthi
+email: kkanaparthi2025@gmail.com
+description: >-
+  Principal Engineer working on enterprise agentic AI platforms, distributed
+  systems, and developer infrastructure. Notes and writeups on production
+  multi-agent systems, LLM tool frameworks, and the engineering discipline
+  around them.
+baseurl: ""
+url: "https://kanaparthikiran.github.io"
+
+# Theme
+theme: minima
+minima:
+  skin: auto
+  date_format: "%Y-%m-%d"
+  social_links:
+    - { platform: github,   user_url: "https://github.com/kanaparthikiran" }
+    - { platform: devpost,  user_url: "https://devpost.com/kanaparthikiran" }
+
+# Plugins (whitelisted by GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Don't include in the published site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .gitignore
+  - README.md
